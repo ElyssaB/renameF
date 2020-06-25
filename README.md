@@ -6,7 +6,7 @@ A letter is added at the end of the name to capture how big the function is (s f
 
 ### Output:
 Each function will be named as the following :
-- word1_word2_a letter reflecting the function's size_ the number of distinct xref to the function_the number of distinct xref from the function
+- word1_word2_a letter reflecting the function's size_ the number of distinct xref calls to the function_the number of distinct xref calls from the function
 
 
 ## Usage: 
