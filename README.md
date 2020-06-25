@@ -6,5 +6,5 @@ A letter is added at the end of the name to capture how big the function is (s f
 ## Usage: 
 invoke renameF.py with "#!pipe python3 renameF.py" inside a r2 session.
 
-## Needed librariries:
+## Needed libraries:
 -r2pipe
