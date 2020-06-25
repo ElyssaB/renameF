@@ -3,8 +3,8 @@ This is an implementation of a little plugin for radare2 that renames all functi
 The transformation is deterministic, based on the function address: two people get the same name for the same function.
 A letter is added at the end of the name to capture how big the function is (s for small, m for medium, l for large), digits are also added to reflect how many other functions call each particular function , and how many other functions are called by it.
 
-#Usage: 
+## Usage: 
 invoke renameF.py with "#!pipe python3 renameF.py" inside a r2 session.
 
-#Needed librariries:
+## Needed librariries:
 -r2pipe
