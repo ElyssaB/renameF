@@ -85,6 +85,7 @@ def listFunctionsAfterRename(r2):
     print(r2.cmd("afl"))
 
 def renameF():
+    import r2pipe
     r2=r2pipe.open()
     r2.cmd("aaa")
     englishWords=english()
@@ -92,6 +93,5 @@ def renameF():
     listFunctionsAfterRename(r2)
     
 if USE_R2:
-    import r2pipe
     renameF()
 
